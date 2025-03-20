@@ -232,23 +232,32 @@ nav {
   gap: 2rem;
 }
 
+/* .btn:hover{
+  background: transparent;
+  border: solid 1px var(--primary-color);
+} */
+
 .header__btns a {
   display: flex;
   align-items: center;
   gap: 5px;
-  font-size: 1rem;
+  font-size: 1.2rem;
   font-weight: 500;
-  color: var(--text-dark);
+  color: #fff;
 }
 
 .header__btns a span {
   font-size: 1.5rem;
-  color: var(--primary-color);
+  color: #fff;
 }
 
-.header__btns a:hover {
+/* .header__btns a span:hover {
   color: var(--primary-color);
-}
+} */
+
+/* .header__btns a:hover {
+  color: var(--primary-color);
+} */
 
 .stats__container {
   display: flex;
@@ -265,13 +274,13 @@ nav {
 
 .stats__card h4 {
   margin-bottom: 0.5rem;
-  font-size: 2.5rem;
+  font-size: 1.4rem;
   font-weight: 600;
   color: var(--primary-color);
 }
 
 .stats__card p {
-  font-size: 1.2rem;
+  font-size: 0.8rem;
   color: var(--text-dark);
 }
 
