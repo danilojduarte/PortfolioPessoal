@@ -283,10 +283,11 @@
         Se você precisa de um novo site, um redesenho ou uma funcionalidade personalizada,
 vamos colaborar para criar algo incrível.
       </p>
-      <form action="/">
-        <input type="text" placeholder="Nome" />
-        <input type="text" placeholder="Seu e-mail" />
-        <input type="text" placeholder="Número Telefone" />
+      <form action="https://formsubmit.co/daniloduarte.dev@gmail.com" method="post">
+        <input type="text" placeholder="Nome" required/>
+        <input type="email" placeholder="Seu e-mail" required/>
+        <input type="number" placeholder="Número Telefone" />
+        <input type="hidden" name="_next" value="https://yourdomain.co/index.html" />
         <!-- <input type="text" placeholder="Budget" /> -->
         <textarea placeholder="Menssagem"></textarea>
         <button class="btn">Enviar Menssagem</button>
