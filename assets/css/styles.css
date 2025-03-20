@@ -189,7 +189,6 @@ nav {
   transform: translateX(-50%);
   background-color: var(--primary-color);
   z-index: -2;
-
 }
 
 .header__image::after {
