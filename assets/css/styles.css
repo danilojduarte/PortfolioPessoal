@@ -209,7 +209,7 @@ nav {
 
 .header__content h1 {
   margin-bottom: 2rem;
-  font-size: 4rem;
+  font-size: 2rem;
   font-weight: 600;
   line-height: 4.25rem;
   color: var(--text-dark);
@@ -649,6 +649,10 @@ nav {
 
   .header__content :is(h1, .section__description) {
     text-align: left;
+  }
+
+  .header__content h1 {
+    font-size: 4rem;
   }
 
   .header__btns {
