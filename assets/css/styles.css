@@ -653,6 +653,7 @@ nav {
 
   .header__content h1 {
     font-size: 4rem;
+    line-height: 4.55rem;
   }
 
   .header__btns {
