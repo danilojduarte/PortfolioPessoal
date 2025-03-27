@@ -178,7 +178,7 @@ nav {
   position: absolute;
   content: "";
   height: 85%;
-  width: 90%;
+  width: 55%;
   max-width: 400px;
   border-radius: 8px;
 }
@@ -187,11 +187,14 @@ nav {
   bottom: 0;
   left: 50%;
   transform: translateX(-50%);
+  
   background-color: var(--primary-color);
+
+
   z-index: -2;
 }
 
-.header__image::after {
+/* .header__image::after {
   bottom: -3rem;
   left: 50%;
   transform: translateX(calc(-50% - 2rem));
@@ -201,7 +204,7 @@ nav {
   z-index: -1;
 
   border-radius: 8px;
-}
+} */
 
 .header__content .section__subheader {
   margin-inline: auto;
