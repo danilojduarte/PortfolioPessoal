@@ -294,7 +294,12 @@ nav {
   animation: scroll 45s linear infinite;
 }
 
-.portfolio__image img {
+.portfolio__lista {
+  display: flex;
+  gap: 2rem
+}
+
+.portfolio__image ul li i {
   max-width: 300px;
   box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.05);
 }
