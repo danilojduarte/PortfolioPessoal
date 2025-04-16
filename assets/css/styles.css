@@ -263,6 +263,8 @@ nav {
   color: var(--primary-color);
 } */
 
+
+
 /* Inicio Css Carrossel Icons */
 .portfolio__container {
   display: grid;
@@ -283,6 +285,11 @@ nav {
 
 .portfolio__image__wrapper {
   overflow-x: hidden;
+}
+
+.portfolio__lista i {
+  font-size: 3rem;
+  color: var(--primary-color);
 }
 
 .portfolio__image {

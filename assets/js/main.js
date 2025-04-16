@@ -75,5 +75,5 @@ portfolioContent.forEach((item) => {
 
 const swiper = new Swiper(".swiper", {
   slidesPerView: "auto",
-  spaceBetween: 20,
+  spaceBetween: 40,
 });
